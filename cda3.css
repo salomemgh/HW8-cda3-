@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #edf0f7;
+}
+
+.container{  /*მთავარი კონტეინერი*/
+    width: 770px; /* მთავარი კონტეინერის სიგანე*/
+    height: 442px; /* მთავარი კონტეინერის სიმაღლე*/
+    background-color: #ffffff; /* კონტეინერის ფერი */
+    border-radius: 20px; /*ჩარჩო*/
+    margin: 40px auto; /*კონტეინერი დაშორებულია ზემოდან 40პიქსელით და გაცენტრილია*/
+    display: flex; /*კონტეინერში გვერდიგვერდ რო დაჯდეს ელემენტები*/
+}
+
+.photo{ /*პროდუქტის ფოტო*/
+    margin-left: 89.50px; /*ფოტო დაშორებულია მარცხნიდან */
+    margin-top: 35.51px; /*ფოტო დაშორებულია ზემოდან*/
+}
+.container2{ 
+    margin-left: 110px; /*ფოტოს რომ დაშორდეს სხვა ელემენტები*/
+    width: 100%;
+}
+
+h1{ /* პროდუქტის სახელი*/
+    font-weight: 500;
+    font-size: 48px;
+    color: #15181A;
+    margin-top: 41px; 
+}
+.text1{  /*აღწერის ტექსტი*/
+    font-weight: 400;
+    font-size: 18px;
+    color: #858997;
+    margin-top: -30px; /* სათაურთან მისაახლოებლად*/   
+}
+.price{
+    font-weight: 400;
+    font-size: 24px;
+    color: #858997;
+    margin-top: -7px;
+}
+
+.text2{ /*Choose color*/
+    font-weight: 400;
+    font-size: 16px;
+    color: #141821;
+    margin-top: 25px;
+}
+
+.container3{
+    display: flex;
+}
+
+
+.photo-c1{ /* შავი ფ.ფოტო */
+    width: 36px;
+    height: 36px;
+}
+.photo-c2, .photo-c3{ /*ნაცრისფერი და კაკლისფ. ფოტო*/
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+}
+
+.colors1{ /*ფერების ტექსტური დასახელება*/
+    font-weight: 400;
+    font-size: 14px;
+    color: #141821;
+    margin-left: 7px;
+    margin-top: 9px;
+}
+.path{ 
+    width: 10px;
+    height: 8px;
+    margin-left: 13px;
+    margin-top: -25px;
+    
+}
+.text3{ /*choose size*/
+    font-weight: 400px;
+    font-size: 16px;
+    color: #141821;
+}
+.container4{
+    display: flex;
+}
+.echo-size1{
+    width: 99px;
+    height: 66px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #e33c7a 0%, #c036D0 100%);
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+}
+.echo-size2, .echo-size3 {
+    width: 99px;
+    height: 66px;
+    border-radius: 5px;
+    border: 2px solid #c3C6D1;
+    text-align: center;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #141821;
+    margin-left: 15px;
+}
